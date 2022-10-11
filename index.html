@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7c64fa9aba.js" crossorigin="anonymous"></script>
+    <title>The E-Xchange</title>
+</head>
+<style>
+body{
+    overflow:scroll;
+}
+    /*--------------MEDIA QUERIES---------------*/
+@media (min-width:280px) and (max-width: 653px){
+    .contain{
+    position: absolute;
+    top: 38%;
+    left: 11%;
+}
+.contain p{
+    font-size: 90%;
+}
+/*--------------------------------------------------*/
+    img{
+        position: absolute;
+        top: 1%;
+        right: 57%;
+        width: 80%;
+    }
+    .logo{
+        width: 57%;
+    }
+    .na{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+        text-align: center;
+        z-index: 100;
+    }
+    .working{
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        padding: 5% 0 0 0;
+        text-align: center;
+    }
+    .working h1{
+        text-transform: uppercase;
+        font-size: 80%;
+    }
+    .working hr{
+       margin-left: 43%;
+       margin-right: 43%;
+       margin-top: 2%;
+       border: 0.3px solid #00AA5B;
+       background-color: #00AA5B;
+    }
+    .working p{
+        font-size: 50%;
+        padding: 4% 10% 4% 10%;
+    }
+    .grid{
+        display: grid;
+    }
+    .grid p{
+        padding:8% 3% 8% 3%;
+        font-size: 30%;
+    }
+    .grid i{
+        font-size: 100%;
+        color: #00AA5B;
+    }
+    #div{
+        width: 90%;
+        height: 100%;
+        color: white;
+        background-color: rgb(34, 33, 33);
+        border-radius: 15px;
+        padding: 10% 1%;
+        margin-left:3%;
+        margin-top: 2%;
+    }
+    #div p{
+        font-size: 30%;
+    }
+    .side{
+        position:absolute;
+        bottom:0;
+        right:0;
+        width:10%;
+    }
+    .working p{
+        font-size:70%;
+    }
+    
+}
+.contain a:hover{
+    background-color:green;
+}
+</style>
+<body>
+    <i id="burger" class="fas fa-bars"></i>
+   <section class="start">
+       <img class = "logo" class = "side" src="https://zeevector.com/wp-content/uploads/LOGO/Swachh-Bharat-Logo-PNG.png" style = "position:absolute;bottom:0; right:10%;width:10%;" alt="">
+       <img class = "logo" class = "side" src="https://zeevector.com/wp-content/uploads/2021/02/Make-in-India-Logo-PNG-HD.png" style = "position:absolute;bottom:0; right:0;width:10%;" alt="">
+       <img class = "logo" src="logo.PNG" alt="">
+    <video src="https://player.vimeo.com/external/548305081.sd.mp4?s=5ab8fcafbdc74e1787b04d8af4cb5edfa1827d1a&profile_id=164&oauth2_token_id=57447761" autoplay mute playsinline loop muted></video>
+    <div class="na">
+        <i class="fas fa-times" id="hide"></i>
+        <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="dumping.html">dumping ground</a></li>
+             <li><a href="shop.html">Shop</a></li>
+             <li><a href="contact.html">Contact</a></li>
+         </ul>
+     </div>
+     <div class="contain">
+         <h1><span style="color: #00AA5B;">E</span>-Xchange</h1>
+         <p style = "font-size: 130%;font-family: 'Heebo'">This is our way to contribute to the <br> future generation.What is your step? Not sure join us.</p>
+         <a href="signup.html" style = "font-family: 'Heebo', cursive;font-size: 150%; color:black;">Sign up</a>
+     </div>
+   </section>
+   <section class="working">
+       <h1 style="color: #00AA5B;font-size:150%;">Have a look at our <span style="color: black;font-weight:bold;">idea</span></h1>
+       <iframe width="80%" height="300" style = "margin-bottom:50px;margin-top:20px;" src="https://www.youtube.com/embed/yC7tb-fbqJs">
+           </iframe> 
+       <h1 style = "font-family: 'Heebo', sans-serif;font-size:150%;">get your things exchanged - not wasted </h1>
+       <hr>
+       <p style = "font-family: 'Heebo', sans-serif;, cursive;word-spacing:2px;letter-spacing:1px;">We are a start-up on a mission. A mission to create a better world. Our start up provides a personalise experience while helping you dispose off old run down electronic items. We all know managing waste is the need of an hour. As for repairable components, we repair them and sell them, generating income from previously but so useful parts. Thus we not only serve the society but also generate income from our hard work. Other items which are weary and not repairable are disposed off with utmost safety. E-waste is hazardous and ‘Safety’ is our priority. This is a new company based in India starting up, year 2021. We believe in treating our customers with love and therefore we reward them in the form of coupons and offers. Our target audience is anyone who is willing to bring about a change in society through small efforts like ours. This is our way to contribute to the future generation. What is your step? Don’t know then join us with our mission</p>
+       <div class="grid">
+           <div  id="div" class="one">
+            <i class="fas fa-user-plus"></i>
+            <p>Click on signup button above, register your details accordingly and become member of our club</p>
+           </div>
+           <div id="div" class="two">
+            <i class="fas fa-trash"></i>
+            <p>Go in dumping ground and dump your product by entering the details of your product and a pic.</p>
+           </div>
+           <div id="div" class="three">
+            <i class="fas fa-shopping-cart"></i>
+            <p>Use your voucher which you have accumulated to buy products in our shop section </p>
+           </div>
+           <div id="div" class="four">
+            <i class="fas fa-glass-cheers"></i>
+            <p>Voila, we aree done wait back for your product to get in your hands</p>
+           </div>
+       </div>
+       <div class="footer">
+        <p>Copyrights @E-Exchange 2022</p>
+       </div>
+   </section>
+   
+   <script src="main.js"></script>
+</body>
+</html>
